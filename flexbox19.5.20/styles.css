@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    border: 0;
+}
+
+
+.banner {
+    display: flex;
+    width: 1338px;
+    height: 400px;
+} 
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+h1 {
+    font-family: 'Ultra', serif;
+  
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    background-color: lightgreen;
+    padding: 10px;
+    justify-content: flex-start;
+    width: auto;
+  height: 50px;
+}
+
+.nav1 {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 1px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+    height: 600px;
+    background-color: yellow;
+}
+
+
+.box2 {
+    
+    
+    
+
+    
+    background-color: blue;
+   
+}
+
+.box3 {
+    
+    flex-direction: column; 
+    width: auto;
+    background-color: blue;
+   
+}
+
+.footer {
+
+    display: flex; 
+    flex-direction: row; 
+    width: auto;
+    background-color: yellowgreen;
+    align-self: auto;
+}
